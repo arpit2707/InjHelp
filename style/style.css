@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Pseudo type selectors are selecting globally types of tags */
+/* Combined selectors are used when we need same design for multiple tags */
+/* Type selectors are for tag based */
+/* class selectors are used with classname given in tags same as "id" selectors. */
+/*  Difference is just classname selectors start with .classname and id selectors start with # */
+/* this is called psuedo element selector like first line of para */
+/* Psuedo class selectors are visited , hover and linked */
+/* Combinator selectors will be used with "parent tag > child tag" to select any child tag inside any parent tag */
+/* Universal selectors used with "*" */
+/* h1+p selector define we are selecting p just after h1 tag if anything comes in between it will not work */
+/* Use clip path for image size editing */
+/* p::first-line{
+    color:rgb(133, 12, 12);
+    overflow: hidden,scroll;
+} */
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+header a{
+    font-size: large;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    color: rgb(246, 250, 7);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(15, 14, 14);
+}
+
+p {
+    font-family: Benton Sans,helvetica,sans-serif;
+    text-transform: none;
+    font-size: 0.9 rem;
+    line-height: 2.4rem;
+    letter-spacing: 0;
+    background-color: brown;
+}
+
+.form-container {
+    background-color: blueviolet !important;
+}
+
+/* main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+} */
+
+/* section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+table,tr,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+section {
+    min-height: 100vh;
+}
+ul,ol{
+    list-style: none;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+} */ */
